@@ -1,54 +1,63 @@
-body{
-    width:100vw;
-    height: 100vh;
+*{
     margin:0px;
     padding:0px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background: linear-gradient(to top ,rgb(208, 204, 204),rgb(181, 222, 235));
     box-sizing: border-box;
 }
-input,textarea{
-    border-radius: 5px;
-    border-style: none;
-    padding: 5px;
-    margin: 5px;
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
-.para{
-    font-size: 0.8rem;
-}
-button{
-    color:white;
-    border-radius: 8px;
-    width: 100px;
-    padding: 10px;
-    margin:5px;
-    background-color: rgb(26, 120, 39);
-}
-button:hover{
-    background-color: rgb(3, 43, 3);
+#outter-box{
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
-form{
-    width:100vw;
-    height: 100vh;
-    
-   
-    
-    
-}
 #inner-box{
-    width: 200px;
-    height: 450px;
-    display: inline-block;
+    width: 320px;
+    height: 400px;
+    display: flex;
+    transform: translateY(-10%);
+    justify-content: center;
+    align-items: center;
     border: 1px solid black;
-    margin:100px 650px;
-    padding: 50px 60px;
-    border-radius: 10px;
-    background-color: rgb(159, 214, 239);
-    box-shadow: 10% rgba(0, 0, 0, 0.56);
-   
-    
+    border-radius: 15px;
+    background-color:skyblue;
+    box-shadow: 4px 4px 4px black; 
 }
-label{
+form p input,textarea{
+    margin: 8px;
+    padding: 5px;
+    border-radius: 10px;
+    border-style: none;
+
+}
+
+.main p label{
     display: block;
+    margin-top: 3px;
+}
+.head header p{
+    margin-bottom: 15px;
+    color: rgb(73, 84, 84);
+}
+#btn{
+    margin: 10px;
+    padding: 6px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgb(235, 44, 10);
+    font-size: .9rem;
+}
+
+#btn:hover{
+    background-color: darkred;
+}
+
+input:hover{
+    background-color: rgb(210, 221, 231);
 }
